@@ -59,6 +59,7 @@ Der Test gibt nicht zwingend wieder, wie häufig der ChatGPT-Analysemodus Fehler
 - Dass das Programm Ergebnis- und Vergleichs-Datei als "Nicht identisch" markiert, **kann ganz harmlose Ursachen haben** - dass Zahlen als Komma- statt als Ganzzahl-Werte gespeichert werden (tatsächlich hatte mein Vorlagen-Erzeuger-Programm genau mit diesem Problem zu kämpfen). Ich habe aber einen Fall näher angeschaut - und da waren tatsächlich Quell- und Zieldaten vertauscht. 
 - Selbst ein wirklich falsches Programm führt im Analysemodus nicht wirklich zu einem falschen Ergebnis, weil das Sprachmodell die Programme dort in einer Testumgebung ausführt und dann 
 - Die verwendeten Daten sind ein klein wenig unrealistisch - aber dann doch nicht so sehr: schließlich handelt es sich um reale Daten und eine reale Aufgabenstellung. 
+- **Das Prompt ist nicht optimal** - man kann der KI die Aufgabe noch wesentlich detaillierter und unmissverständlicher beschreiben. 
 - Auffällig: GPT-4o löst die Aufgabe meist **ohne das ```pandas```-Paket**, das für Tabellendaten eigentlich der Standard ist. Im Analysemodus - also wenn man innerhalb von ChatGPT Daten verarbeiten lässt - kommt ```pandas``` immer zum Einsatz. Die Trefferquote ist dort also vermutlich höher.
 
 Insgesamt zeigt der Versuch aber: 
